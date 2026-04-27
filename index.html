@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Villanueva Lawn Care</title>
 
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+/* IMAGE */
+.banner img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+/* SECTION */
+.section {
+  padding: 30px 20px;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 25px;
+  background: #16a34a;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background: #15803d;
+}
+
+/* FORM */
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 12px;
+  background: #14532d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* FOOTER */
+footer {
+  background: #14532d;
+  color: white;
+  padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- YOUR IMAGE -->
+<div class="banner">
+  <img src="banner.jpg" alt="Villanueva Lawn Care">
+</div>
+
+<!-- QUICK ACTION -->
+<div class="section">
+  <h2>Get a Free Quote</h2>
+
+  <a href="tel:5717815502" class="btn">📞 Call Now</a>
+  <a href="sms:5717815502" class="btn">💬 Text Now</a>
+</div>
+
+<!-- CONTACT FORM -->
+<div class="section">
+  <h2>Book a Service</h2>
+
+  <form action="https://formspree.io/f/meevwkjv" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+    <textarea name="message" placeholder="What service do you need?" required></textarea>
+    <button type="submit">Request Quote</button>
+  </form>
+</div>
+
+<!-- CONTACT INFO -->
+<div class="section">
+  <h3>Contact</h3>
+  <p>📞 571-781-5502</p>
+  <p>📧 villanuevalawncarellc@gmail.com</p>
+  <p>📍 Burlington, NC</p>
+  <p><strong>Se Habla Español</strong></p>
+</div>
+
+<footer>
+  <p>© 2026 Villanueva Lawn Care</p>
+</footer>
+
+</body>
+</html>
